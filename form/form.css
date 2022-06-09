@@ -1,0 +1,109 @@
+.card{
+    width: 800px;
+    height: 800px;
+    border:groove black;
+    background-color: rgb(255, 255, 255);
+}
+
+form{
+    display:flex; 
+    flex-direction: column;
+}
+
+.card h1{
+    font-family: 'Caveat', cursive;
+    font-family: 'Ms Madi', cursive;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.countryAndTown{
+    display:flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+
+.country{
+/* width:30%; */
+padding:5px;
+margin-bottom: 10px;
+}
+
+.town{
+    width:30%;
+}
+
+p{
+    font-family: 'Caveat', cursive, bold;
+    font-family: 'Ms Madi', cursive, bold;
+    font-size:30px;
+    margin-bottom: 0px;   
+}
+
+
+.stars{
+    background: #ffffff;
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
+
+.stars input{
+    position:absolute;
+    left:-99999px;
+}
+
+label{
+    width:30px;
+    height:30px;
+    padding:5px;
+    /* border: 1px solid black; */
+    color:transparent;
+}
+
+label::before{
+    content:'★';
+    color: #c0c0c0;
+    font-size:30px;
+    line-height: 30px;
+}
+
+label:hover::before,
+label:hover ~ label::before,
+
+.stars input:checked ~ label::before{
+    color:#ffa500;
+}
+
+.description{
+
+    margin-top: 0px;
+    font-family: 'Caveat', cursive, bold;
+    font-family: 'Ms Madi', cursive, bold;
+    font-size:30px;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.description hr{
+    width:99% ;
+
+}
+.description p{
+    margin:0px;
+    margin-left:50px
+}
+.description input{
+    width: 700px;
+    height: 170px;
+    align-self:center;
+
+}
