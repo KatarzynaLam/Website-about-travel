@@ -1,0 +1,89 @@
+.placesView{
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.productsTh{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.productsTh p{
+    padding: 20px;
+    text-align: center;
+    background-color: #86c3b9;
+    color: rgb(44, 33, 44);
+    font-size: 20px;
+    font-family: Copperplate Gothic Light;
+    width: 100px;
+    border-radius: 10PX;
+    
+}
+
+.placesImages{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    align-items: center;
+    
+}
+
+.placesImages img{
+    width: 100px;
+    height: 100px;
+    margin: 0 0 20px 0;
+    border: 3px black solid;
+
+
+}
+
+.townsName{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.countriesName{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.count{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.co{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+
+
+.newPlace{
+    padding: 20px;
+    text-align: center;
+    background-color: #c3e7e1;
+    color: rgb(44, 33, 44);
+    font-size: 20px;
+    font-family: Copperplate Gothic Light;
+    width: 200px;
+    border-radius: 10PX;
+}
+.newPlace:hover{
+    background-color: #86c3b9;
+}
